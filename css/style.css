@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:  #0c1022;
+    color: white;
+  }
+ #slider{
+  width: 720px;
+  height: 400px;
+ }
+ #slider .slides{
+display: block;
+width: 6000px;
+height: 400px;
+margin: 0;
+padding: 0;
+ }
+ #slider .slide{
+  float: left;
+  list-style: none;
+  width: 720px;
+  height: 400px;
+ }
+ .header{
+  color: rgb(190, 181, 168);
+  font-size: 19px;
+  font-family:serif;
+ }
+ /*
+ #slider img{
+  width: 720px;
+  height: 400px;
+ } */
+
+ .container{
+  margin: 40px;
+ }
+ ul img{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 10px;
+  border-radius: 20px 0 10px;
+ }
